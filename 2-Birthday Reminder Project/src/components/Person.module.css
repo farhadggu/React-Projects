@@ -1,0 +1,28 @@
+.birthdayPerson{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.birthdayPerson img{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.birthdayPerson div{
+    margin-left: 1.5rem;
+}
+
+.birthdayPerson div p{
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: rgb(56, 55, 53);
+}
+
+.birthdayPerson div span{
+    color: rgb(99, 99, 99);
+}

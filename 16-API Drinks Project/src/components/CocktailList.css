@@ -1,0 +1,13 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.cocktails-center{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}

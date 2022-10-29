@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+body{
+  background-color: rgb(231, 231, 231);
+}
+
+.section-bud{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem auto;
+  background-color: #fff;
+  padding: 3rem;
+  box-shadow: 10px 10px 20px rgb(143, 143, 143);
+  border-radius: 10px;
+  width: calc(100% - 14rem);
+}
+
+.section-bud h3{
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.form-bud{
+  margin: 20px 0;
+}
+
+.form-bud input{
+  border: none;
+  background-color: rgb(233, 233, 233);
+  padding: 10px;
+  border-radius: 5px;
+  color: #000;
+  margin: 0 10px;
+}
+
+.form-bud button{
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: rgb(25, 52, 168);
+  color: #fff;
+  text-transform: capitalize;
+  transition: all .3s ease-in-out;
+}
+
+.form-bud button:hover{
+  background-color: #fff;
+  color: rgb(25, 52, 168);
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+.grocery-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.clear-btn{
+  text-align: center;
+  border: none;
+  background-color: #fff;
+  color: red;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  transition: all .3s ease-in-out;
+}
+
+.clear-btn:hover{
+  color: rgb(196, 51, 51);
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+.section-bud form p{
+  text-align: center;
+  text-transform: capitalize;
+  background-color: rgb(223, 223, 223);
+  border-radius: 5px;
+}
+
+.alert-danger{
+  color: red;
+  padding: 6px;
+}
+
+.alert-success{
+  color: green;
+  padding: 6px;
+}
+
+@media screen and (max-width:768px) {
+  .section-bud{
+    margin: 20px auto;
+    padding: 1.5rem;
+  }
+
+  .form-bud{
+    display: flex;
+  }
+
+}
+
+@media screen and (max-width:480px) {
+  .section-bud{
+    width: 300px;
+  }
+}

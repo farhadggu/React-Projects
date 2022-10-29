@@ -1,0 +1,26 @@
+.categoryContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px auto;
+}
+
+.categoryContainer button{
+    text-transform: capitalize;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: rgb(197, 136, 121);
+    transition: all .3s ease-in-out;
+}
+
+.categoryContainer button:hover{
+    color: rgb(240, 240, 240);
+    background-color: rgb(197, 136, 121);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}

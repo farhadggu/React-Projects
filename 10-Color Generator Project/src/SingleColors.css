@@ -1,0 +1,14 @@
+article{
+    text-align: center;
+    padding: 30px 20px;
+}
+
+article p{
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.alert{
+    text-transform: uppercase;
+    color: rgb(151, 151, 151);
+}

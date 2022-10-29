@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgb(201, 102, 176);
+}
+
+.main{
+    width: 100%; 
+    margin: 0;
+}
+
+.birthdayBox{
+    padding: 2rem;
+    width: 700px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.birthdayCard{
+    background-color: #e5eaf0;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.birthdayCard h1{
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(56, 55, 53);
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+.birthdayCard button{
+    outline: none;
+    border: none;
+    background-color: rgb(201, 102, 176);
+    margin-top: 15px;
+    font-size: 1.1rem;
+    color: #fff;
+    padding: 10px;
+}
+
+@media screen and (max-width:768px) {
+
+
+    .birthdayBox{
+        padding: 1rem;
+        width: 700px;
+        grid-template-columns: auto;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+
+
+    .birthdayBox{
+        padding: 1rem;
+        width: 300px;
+        grid-template-columns: auto;
+    }
+}

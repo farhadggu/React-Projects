@@ -1,0 +1,24 @@
+.navbar{
+    background-color: rgb(236, 236, 236);
+}
+
+.nav-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 2rem;
+
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li{
+    margin-right: 40px;
+}
+
+.nav-links li a {
+    color: black;
+}

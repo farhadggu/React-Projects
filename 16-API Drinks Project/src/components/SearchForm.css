@@ -1,0 +1,27 @@
+.search-form{
+    background-color: rgb(58, 87, 58);
+    padding: 1rem;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(196, 196, 196);
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-control label{
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.form-control input{
+    border: none;
+    outline: none;
+    padding: 1rem;
+    border-radius: 4px;
+    color: #000;
+}

@@ -1,0 +1,100 @@
+.reviewsContainer{
+    width: 500px;
+    height: 100%;
+    background-color: #e4e4e4;
+    padding: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 10px 10px 15px rgb(92, 92, 92) ;
+}
+
+@media screen and (max-width:480px) {
+    .reviewsContainer {
+        width: 300px;
+
+    }
+}
+
+.reviewsContainer img{
+    display: block;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 8px -2px 1px #136fe7;
+}
+
+.reviewQuote{
+    position: absolute;
+    top: 20px;
+    left: 185px;
+    background-color: #136fe7;
+    border-radius: 50%;
+    padding: 10px;
+    color: #fff;
+}
+
+.reviewContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.reviewContent h3{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.reviewContentJob{
+    color: #136fe7;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.reviewContentDesc{
+    line-height: 1.5;
+    color: rgb(68, 68, 68);
+}
+
+.reviewArrows{
+    display: flex;
+    margin-bottom: 20px;
+    color: #136fe7;
+}
+
+.reviewArrows svg{
+    margin:0 30px ;
+}
+
+.reviewArrows svg:hover{
+    cursor: pointer;
+}
+
+.reviewsContainer button{
+    color: #1357b1;
+    background-color: #cbe1ff;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+    margin-top: 20px;
+}
+
+.reviewsContainer button:hover{
+    background-color: #1357b1;
+    color: #cbe1ff;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}

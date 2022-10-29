@@ -1,0 +1,64 @@
+.grocery-list{
+    padding: 1rem 4rem;
+}
+
+.grocery-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+    border-bottom: 1px solid;
+}
+
+.grocery-item p{
+    display: block;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.edit-btn{
+    border: none;
+    background-color: #fff;
+    color: green;
+    font-size: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.delete-btn{
+    border: none;
+    background-color: #fff;
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    .grocery-list{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .grocery-list p{
+        margin-right: 100px;
+    }
+
+    .grocery-item{
+        margin: 30px 0;
+    }
+
+    .grocery-item p{
+        font-size: .8rem;
+        letter-spacing: 0;
+        font-weight: bold;
+    }
+  }

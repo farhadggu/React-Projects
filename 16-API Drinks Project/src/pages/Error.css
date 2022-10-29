@@ -1,0 +1,33 @@
+.error-page{
+    padding: 2rem;
+}
+
+.error-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-container h1{
+    text-transform: capitalize;
+    color: rgb(223, 60, 60);
+}
+
+.btn-primary{
+    border: none;
+    padding: 10px;
+    background-color: rgb(30, 30, 119);
+    color: #fff;
+    border-radius: 8px;
+    text-transform: capitalize;
+    transition: all .3s ease-in-out;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.btn-primary:hover{
+    background-color: #fff;
+    color: rgb(30, 30, 119);
+    transition: all .3s ease-in-out;
+}

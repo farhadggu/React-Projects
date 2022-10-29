@@ -1,0 +1,43 @@
+.todo-lists{
+    margin-top: 40px;
+}
+
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin: 40px 0;
+}
+
+.todo-icons{
+    display: flex;
+    align-items: center;
+}
+
+.todo-icons svg{
+    margin-left:10px;
+    font-size: 20px;
+}
+
+.delete-icon{
+    color: red;
+    transition: all .4s ease-in-out;
+}
+
+.delete-icon:hover{
+    font-size: 25px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+.edit-icon{
+    color: green;
+    transition: all .4s ease-in-out;
+}
+
+.edit-icon:hover{
+    font-size: 25px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}

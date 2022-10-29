@@ -1,0 +1,15 @@
+.cocktail{
+    background-color: azure;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgb(196, 196, 196);
+}
+
+.img-container img{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.cocktail-footer{
+    padding: 1rem;
+}

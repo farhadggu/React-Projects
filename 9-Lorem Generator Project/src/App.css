@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+body{
+  background-color: rgb(236, 236, 236);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+.container h3{
+  text-transform: capitalize;
+  margin: 20px 0 40px;
+  color: rgb(60, 60, 216);
+  letter-spacing: 1px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.form{
+  display: flex;
+}
+
+.form label{
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  margin: 0 10px;
+}
+
+.form input{
+  border: none;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.form button{
+
+  margin-left: 10px;
+  border: none;
+  text-transform: uppercase;
+  font-size: .9rem;
+  background-color: rgb(60, 60, 216);
+  padding: 9px;
+  color: #fff;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all .3s ease-in-out;
+}
+
+.form button:hover{
+  background-color: #fff;
+  color: rgb(60, 60, 216);
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+.article{
+  padding: 0 3rem;
+  margin-top: 20px;
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
+
+.article p{
+  margin: 30px 0;
+  color: rgb(95, 95, 95);
+}
+
+@media screen and (max-width:480px) {
+  .container{
+    margin: 0;
+    padding: 12px 0;
+  }
+
+  .form{
+    display: block;
+    text-align: center;
+  }
+  .form div{
+    display: flex;
+    align-items: center;
+  }
+
+  .form button{
+    margin: 30px 0;
+    display: inline;
+  }
+
+  .article p{
+    border-bottom: 1px solid #000;
+  }
+}

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(240, 240, 240);
+    font-family: 'Nunito', sans-serif;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
+.heading::after{
+    content: '';
+    display: block;
+    margin: 10px auto 0;
+    width: 80px;
+    height: 8px;
+    border-radius: 3px;
+    background-color: rgb(39, 179, 214);
+}
+
+.jobs-center{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 3rem;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-container button{
+    margin: 0 50px;
+    border: none;
+    padding: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.btn-container-active{
+    color: rgb(0, 204, 255);
+    border-left: 2px solid rgb(0, 204, 255) !important;
+}
+
+.article-jobs{
+    margin-left: 30px;
+}
+
+.article-jobs h3{
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    color: rgb(44, 44, 44);
+    margin-bottom: 20px;
+}
+
+.article-jobs h4{
+    font-size: 1.2rem;
+    background-color: rgb(187, 187, 187);
+    color: rgb(36, 36, 36);
+    display: inline;
+    padding: 7px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.article-date{
+    color: rgb(87, 84, 84);
+    margin: 20px 0;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.icons svg{
+    width: 80px;
+}
+
+.angle-double{
+    padding: 1.5rem 1.5rem 1.5rem 0;
+    font-size: 30px;
+    color: rgb(14, 170, 209);
+}
+
+.icons p{
+    line-height: 1.5;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width:768px) {
+    .icons svg{
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    .jobs-center{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0;
+    }
+
+    .btn-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-container button{
+        margin: 40px 10px;
+    }
+}
+

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(241, 241, 241);
+    font-family: 'Nunito', sans-serif;
+}
+
+.title h2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title span{
+    color: rgb(160, 83, 83);
+}
+
+.section-center{
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 80vw;
+    height: 450px;
+    max-width: 800px;
+    text-align: center;
+    position: relative;
+    display: flex;
+}
+
+.section-center article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-center img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    border: 4px solid hsl(210, 31%, 80%);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.section-center h4{
+    margin: 15px 0;
+    color: rgb(160, 83, 83);
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.section-center .title{
+    text-transform: capitalize;
+    margin: 10px 0;
+    font-weight: bold;
+    color: rgb(54, 54, 54);
+    letter-spacing: 1px;
+}
+
+.section-center .text{
+    margin: 10px 0;
+    line-height: 1.5;
+    color: rgb(54, 54, 54);
+}
+
+.icon{
+    font-size: 20px;
+    color: rgb(160, 83, 83);
+    margin: 20px 0;
+}
+
+.prev,
+.next{
+    position: absolute;
+    top: 200px;
+    transform: translateY(-50%);
+    background-color: rgb(59, 54, 54);
+    color: #fff;
+    width: 1.25rem;
+    height: 1.25rem;
+    display: grid;
+    place-items: center;
+    border-color: transparent;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.prev:hover,
+.next:hover{
+    background-color: #fff;
+    color: rgb(59, 54, 54);;
+    transition: all .3s ease-in-out;
+}
+
+.prev{
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+article{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+}
+
+article.activeSlide{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+article.lastSlide{
+    transform: translateX(-100%);
+}
+
+article.nextSlide {
+    transform: translateX(100%);
+}
