@@ -1,0 +1,107 @@
+.tourContainer{
+    width: 600px;
+    min-height: 600px;
+    box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 40px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tourContainer img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.tourContent{
+    background-color: #fff !important;
+    margin-top: 20px;
+}
+
+.tourContentTop{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 20px;
+    align-items: center;
+}
+
+.tourContentTop h1{
+    font-size: 1rem;
+    letter-spacing: 2px;
+    
+}
+
+.tourContentTop span{
+    background-color: rgb(145, 161, 233);
+    padding: 5px;
+    border-radius: 6px;
+    color: rgb(28, 30, 136);
+    font-weight: bold;
+}
+
+.tourContent p{
+    color: rgb(112, 112, 112);
+    padding: 20px 30px;
+}
+
+.tourButton{
+    margin-top: 20px;
+    font-weight: 550;
+    color: rgb(204, 52, 52);
+    border: 1px solid rgb(197, 52, 52);
+    display: inline-block;
+    padding: 0.8rem 1rem;
+    letter-spacing: 2px;
+    font-size: .9rem;
+    transition: all .3s ease-in-out;
+    background-color: #fff;
+    margin-bottom: 15px;
+}
+
+.tourButton:hover{
+    background-color: rgb(204, 52, 52);
+    color: #fff;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.tourContent button{
+    background-color: #fff;
+    border: none;
+    color: rgb(71, 93, 219);
+    font-size: .9rem;
+    font-weight: 600;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    .tourContainer{
+        width: 600px;
+    }
+
+    .tourContentTop h1{
+        font-size: 1rem;
+        letter-spacing: 0;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .tourContainer{
+        width: 350px;
+    }
+
+    .tourContentTop h1{
+        font-size: .7rem;
+        letter-spacing: 0;
+        font-weight: bold;
+    }
+
+    .tourContentTop span{
+        font-size: .8rem;
+    }
+}
