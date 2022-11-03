@@ -6,7 +6,7 @@
 
 #### useState
 
-###1. Birthday Reminder
+### 1. Birthday Reminder
 
 [Source Code](https://github.com/farhadggu/React-Projects/tree/main/01-Birthday%20Reminder%20Project)
 
