@@ -1,0 +1,47 @@
+.card{
+    width: 300px;
+    background-color: beige;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img{
+    width: 300px;
+}
+
+.card h4{
+    padding: 10px;
+    text-transform: capitalize;
+
+}
+
+.card a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(6, 112, 126);
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .card{
+        width: 200px;
+    }
+
+    .card img{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card{
+        width: 150px;
+    }
+
+    .card img{
+        width: 150px;
+    }
+}

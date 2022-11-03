@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+main{
+    text-align: center;
+}
+
+main h1{
+    text-transform: capitalize;
+}
+
+.pagination-section{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+
+.pagination-conatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination-conatiner button{
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 100px;
+    transition: all .3s ease-in-out;
+}
+
+.pagination-conatiner button:hover {
+    background-color: black;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.active-btn {
+    background-color: blue;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .pagination-section{
+        grid-template-columns: auto auto auto ;   
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .pagination-section{
+        grid-template-columns: auto auto ;   
+    }
+
+    .pagination-conatiner button{
+        padding: 5px;
+        margin: 2px;       
+    }
+}
