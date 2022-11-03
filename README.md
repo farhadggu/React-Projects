@@ -121,3 +121,9 @@
 [Source Code](https://github.com/farhadggu/React-Projects/tree/main/17-API%20Drinks%20Project)
 
 [Demo Project](https://earnest-choux-30a46d.netlify.app/)
+
+18. Random User Generator Project
+
+[Source Code](https://github.com/farhadggu/React-Projects/tree/main/17-API%20Drinks%20Project)
+
+[Demo Project](https://candid-mandazi-7a24dc.netlify.app)
